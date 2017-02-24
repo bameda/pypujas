@@ -93,4 +93,4 @@ CLOSESPIDER_PAGECOUNT = 10 # Stops after scrapping 10 results, for testing purpo
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # Avoid duplicated URLs
-DUPEFILTER_CLASS = 'scrapy.dupefilter.RFPDupeFilter'
+DUPEFILTER_CLASS = 'scrapy.dupefilters.RFPDupeFilter'
